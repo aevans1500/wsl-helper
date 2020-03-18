@@ -10,7 +10,7 @@ A bash script that adds new commands to help transferring files between WSL and 
 
 4. Edit ~/.bashrc with your preferred text editor and append "source ~/.helper.sh" to the file (without the quotes).
 
-### Commands:
+## Commands:
 #### base
 Will change the current directory to base_dir.
 
