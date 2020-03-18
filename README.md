@@ -27,4 +27,8 @@ For example, if base_dir=/mnt/c/Users/aevan/Desktop/WSL and the current director
 #### relay
 Copies all specified files in the current direcory to the mirrored directory.
 
-For example, say base_dir=/mnt/c/Users/aevan/Desktop/WSL and the current directory is ~/random. Let ~/random contain a file, "file.out", and an arbitrary directory. The command "relay file.out" will copy ~/random/file.out to /mnt/c/Users/aevan/Desktop/WSL/random and the command "relay -r \*" will copy all files and directories in ~/random to /mnt/c/Users/aevan/Desktop/WSL/random.
+For example, say base_dir=/mnt/c/Users/aevan/Desktop/WSL and the current directory is ~/random. Let ~/random contain a file, "file.out", and an arbitrary directory. 
+
+"relay file.out" will copy ~/random/file.out to /mnt/c/Users/aevan/Desktop/WSL/random
+
+"relay -r \*" will copy all files and directories in ~/random to /mnt/c/Users/aevan/Desktop/WSL/random.
