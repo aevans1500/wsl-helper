@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Change the below line to you prefered address on Windows
+#Change the below line to you preferred address on Windows
 base_dir="/mnt/c/Users/aevan/Desktop/WSL"
 
 #Gets the current directory's mirror directory
