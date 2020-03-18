@@ -1,7 +1,9 @@
 #!/bin/bash
 
+#Change the below line to you prefered address on Windows
 base_dir="/mnt/c/Users/aevan/Desktop/WSL"
 
+#Gets the current directory's mirror directory
 function mirror() {
 
 	cur=$(pwd)
@@ -30,6 +32,7 @@ function mirror() {
 
 }
 
+#Copies files as specified (same arguements as cd) to the current directory's mirror directory
 function relay() {
 
 	if (( $# == 0 )); then
@@ -44,12 +47,14 @@ function relay() {
 
 }
 
+#"cd"s to base directory
 function base() {
 
 	cd "$base_dir"
 
 }
 
+#"cd"s to the current directory's mirror directory
 function warp() {
 
 	dir=$(mirror)
