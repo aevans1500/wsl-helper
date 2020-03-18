@@ -6,7 +6,7 @@ A bash script that adds new commands to help transferring files between WSL and 
 
 2. Move helper.sh to you home directory on WSL, "cd ~". 
 
-3. Rename "helper.sh" to ".helper.sh" to make it a hidden file.
+3. Rename "helper.sh" to ".helper.sh" to make it a hidden file, "mv helper.sh .helper.sh".
 
 4. Edit ~/.bashrc with your preferred text editor and append "source ~/.helper.sh" to the file (without the quotes).
 
